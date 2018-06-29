@@ -1,0 +1,9 @@
+projects:
+  app:
+    schemaPath: schema.graphql
+    extensions:
+      codegen:
+      - generator: prisma-binding
+        language: typescript
+        output:
+          binding: schema.ts
